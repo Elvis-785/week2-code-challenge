@@ -1,0 +1,19 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input, button {
+    margin: 10px 0;
+}
+
+#shopping-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#shopping-list li.checked {
+    text-decoration: line-through;
+    background-color: #d3d3d3;
+}
