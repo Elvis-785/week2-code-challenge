@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // func to handle item click (mark as purchased)
-    list.addEventListener("click", (e) => {
-        if (e.target.tagName === "LI") {
-            e.target.classList.toggle("checked");
+    list.addEventListener("click", (event) => {
+        if (event.target.tagName === "LI") {
+            event.target.classList.toggle("checked");
         }
     });
 
